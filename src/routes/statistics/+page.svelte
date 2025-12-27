@@ -10,3 +10,6 @@
 	<li><a href="/statistics">Statistics</a></li>
 	<li><a href="/Notes">Notes</a></li>
 </ul>
+
+<style>
+</style>
