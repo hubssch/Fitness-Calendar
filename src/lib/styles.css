@@ -48,7 +48,7 @@ a {
 
 /* Calendar component styles */
 
-:global(.sv-calendar) {
+/* :global(.sv-calendar) {
     background: #666;
 }
 
@@ -74,6 +74,10 @@ a {
 
 :global(.sv-calendar-actions .sv-button:hover) {
     background: #222;
-}
+} */
 
 /* Calendar component styles */
+
+.wx-willow-theme {
+    --wx-background: #ffffff;
+}
