@@ -1,6 +1,7 @@
 <script>
 	import '$lib/styles.css';
 	import { Calendar, Button, Willow } from '@svar-ui/svelte-core';
+	let { data } = $props();
 </script>
 
 <div id="header">
@@ -17,6 +18,14 @@
 		<Calendar />
 	</Willow>
 </div>
+
+<ul>
+	{#each data.exercises as exercise}
+		<li>{exercise.name}</li>
+		<li>{exercise.sets}</li>
+		<li>{exercise.reps}</li>
+	{/each}
+</ul>
 
 <style>
 	.calendar-willow {
